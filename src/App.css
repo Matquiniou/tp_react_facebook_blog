@@ -1,0 +1,58 @@
+.card{
+  border-color: black;
+  border: solid;
+  display: flex;
+  flex-flow: column;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 70%;
+}
+
+.navbar button {
+  margin: 2%;
+  border-color: black;
+}
+
+.profile{
+  flex-flow: column;
+  display: flex;
+}
+
+.section{
+  border: solid;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.section img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.section button{
+  margin-left: 90%;
+}
+
+.info{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.info a{
+  flex: 0 0 50%;
+  margin-bottom: 5%;
+}
